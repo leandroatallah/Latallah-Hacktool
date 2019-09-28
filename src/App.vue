@@ -357,6 +357,8 @@ export default {
   methods: {
     generateCode() {
       let btnListSrc = []
+      let sell = '0000'
+      let conPoints = '1011'
 
       const btnList = [
         { dir: '4800', value: this.mmmUpValue },
@@ -374,73 +376,35 @@ export default {
           810910FE-${btn.value}
           D115AF50-${this.wrestlerIdValue}
           D1064880-${btn.dir}
-          800ACE25-SSSS
+          800ACE25-${sell}
           D115AF50-${this.wrestlerIdValue}
           D1064880-${btn.dir}
-          800ACE6D-SSSS
+          800ACE6D-${sell}
           D115AF50-${this.wrestlerIdValue}
           D1064880-${btn.dir}
-          800ACE21-PPPP
+          800ACE21-${conPoints}
           D115AF50-${this.wrestlerIdValue}
           D1064880-${btn.dir}
-          800ACE69-PPPP
+          800ACE69-${conPoints}
           
           D115B2A8-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          810910FA-${btn.value}
+          D1064886-${btn.dir}
+          81091542-${btn.value}
           D115B2A8-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          810910FE-${btn.value}
+          D1064886-${btn.dir}
+          81091546-${btn.value}
           D115B2A8-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          800ACE25-SSSS
+          D1064886-${btn.dir}
+          800ACE25-${sell}
           D115B2A8-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          800ACE6D-SSSS
+          D1064886-${btn.dir}
+          800ACE6D-${sell}
           D115B2A8-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          800ACE21-PPPP
+          D1064886-${btn.dir}
+          800ACE21-${conPoints}
           D115B2A8-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          800ACE69-PPPP
-          
-          D115B600-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          810910FA-${btn.value}
-          D115B600-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          810910FE-${btn.value}
-          D115B600-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          800ACE25-SSSS
-          D115B600-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          800ACE6D-SSSS
-          D115B600-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          800ACE21-PPPP
-          D115B600-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          800ACE69-PPPP
-          
-          D115B958-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          810910FA-${btn.value}
-          D115B958-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          810910FE-${btn.value}
-          D115B958-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          800ACE25-SSSS
-          D115B958-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          800ACE6D-SSSS
-          D115B958-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          800ACE21-PPPP
-          D115B958-${this.wrestlerIdValue}
-          D1064880-${btn.dir}
-          800ACE69-PPPP`)
+          D1064886-${btn.dir}
+          800ACE69-${conPoints}`)
       })
 
       let rawCode = btnListSrc.join('')
