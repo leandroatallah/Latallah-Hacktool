@@ -219,7 +219,7 @@ export default {
       sellRightValue: false,
       sellDownValue: false,
 
-      genBtn: true,
+      genBtn: false,
       codeRes: '',
       codeDes: '',
 
@@ -535,13 +535,13 @@ export default {
           800B1B35-${btn.sell}
           D115B2A8-${this.wrestlerIdValue}
           D1064886-${btn.dir}
-          800ACE6D-${btn.sell}
+          800B1B7D-${btn.sell}
           D115B2A8-${this.wrestlerIdValue}
           D1064886-${btn.dir}
           800B1B31-${btn.cp}
           D115B2A8-${this.wrestlerIdValue}
           D1064886-${btn.dir}
-          800B1B7D-${btn.cp}`)
+          800B1B79-${btn.cp}`)
       })
 
       let rawCode = btnListSrc.join('').toUpperCase()
@@ -652,59 +652,59 @@ export default {
     }
   },
 
-  watch: {
-    wrestlerIdValue() {
-      this.checkValues()
-    },
+  // watch: {
+  //   wrestlerIdValue() {
+  //     this.checkValues()
+  //   },
 
-    mmmUpValue() {
-      this.checkValues()
-    },
+  //   mmmUpValue() {
+  //     this.checkValues()
+  //   },
 
-    mmmLeftValue() {
-      this.checkValues()
-    },
+  //   mmmLeftValue() {
+  //     this.checkValues()
+  //   },
 
-    mmmRightValue() {
-      this.checkValues()
-    },
+  //   mmmRightValue() {
+  //     this.checkValues()
+  //   },
 
-    mmmDownValue() {
-      this.checkValues()
-    },
+  //   mmmDownValue() {
+  //     this.checkValues()
+  //   },
 
-    sellUpValue() {
-      this.checkValues()
-    },
+  //   sellUpValue() {
+  //     this.checkValues()
+  //   },
 
-    sellLeftValue() {
-      this.checkValues()
-    },
+  //   sellLeftValue() {
+  //     this.checkValues()
+  //   },
 
-    sellRightValue() {
-      this.checkValues()
-    },
+  //   sellRightValue() {
+  //     this.checkValues()
+  //   },
 
-    sellDownValue() {
-      this.checkValues()
-    },
+  //   sellDownValue() {
+  //     this.checkValues()
+  //   },
 
-    cpUpValue() {
-      this.checkValues()
-    },
+  //   cpUpValue() {
+  //     this.checkValues()
+  //   },
 
-    cpLeftValue() {
-      this.checkValues()
-    },
+  //   cpLeftValue() {
+  //     this.checkValues()
+  //   },
 
-    cpRightValue() {
-      this.checkValues()
-    },
+  //   cpRightValue() {
+  //     this.checkValues()
+  //   },
 
-    cpDownValue() {
-      this.checkValues()
-    }
-  }
+  //   cpDownValue() {
+  //     this.checkValues()
+  //   }
+  // }
 }
 </script>
 
